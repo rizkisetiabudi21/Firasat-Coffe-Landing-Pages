@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+:root {
+    /* color */
+    --primaryColor :#131313;
+    --secondaryColor : #8B2801;
+    --bgColor: #E5DDD2;
+
+    /* font */
+    --mainFont :"Roboto Condensed", sans-serif;
+    --headingFont : "Roboto Condensed", sans-serif;
+}
+.testi1 {
+    background-color: #0C0B0B;
+}
+header {
+    background-image: url(asset/nav.png);
+}
+nav.stiky {
+    background-color: #131313;
+    border-bottom: 2px solid #fffcf9;
+}
+.nav {
+    color: white;
+}
+.home {
+    padding: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home-text {
+    font-size: 30px;
+    background-color: rgba(45, 44, 44, 0.6);
+}
+/* about */
+.about {
+    background-color: #0C0B0B;
+}
+.about-img {
+    padding: 10%;
+}
+.about-toko {
+    padding: 10%;
+}
+.text-about {
+    font-size: 12px;
+}
+
+/* produk */
+.product {
+    background-color: var(--secondaryColor);
+    font-family: var(--mainFont);
+    padding: 5%;
+}
+.menu {
+    padding-top: 5%;
+}
+.card-text {
+    font-size: 10px;
+}
+.card {
+    box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+}
+.produk {
+    padding: 5%;
+}
+.btn-beli {
+    background-color: var(--secondaryColor);
+    color: var(--bgColor);
+    font-size: 12px;
+}
+.harga {
+    font-size: 12px;
+}
+
+.btn-load a {
+    background-color: var(--primaryColor);
+    color: var(--bgColor);
+}
+.new-produk {
+    display: none;
+}
+/* banner */
+.banner {
+    background-color: var(--primaryColor);
+    border-radius: 20px;
+}
+/* contact */
+.contact {
+    background-color: #0C0B0B;
+    padding: 5%;
+}
+.contact-img {
+    padding: 5%;
+}
+.contact-text {
+    padding: 5% ;
+}
+.text-contact {
+    font-size: 12px;
+}
+/* testimoni */
+.testimoni {
+    background-color: #E5DDD2;
+    padding-top: 5%;
+}
+.testimoni .row {
+    margin-top: 30px;
+}
+.profile {
+    padding-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.75);
+}
+.profile img {
+    top: 0;
+    position: relative;
+    border: 10px solid #ffff;
+}
+.user {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.profile h3 {
+    font-size: 20px;
+    font-family: var(--headingFont);
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--treeryColor);
+}
+c {
+    font-size: 12px;
+    color:var(--primaryColor);
+    font-weight: bold;
+}
+.star {
+    color: orange;
+}
+/*footer*/
+.footer {
+    background-color: black;
+}
+
+.col1 a {
+    text-decoration: none;
+    color: white;
+}
+.col1 a:hover {
+    color: #8B2801 ;
+}
+.media {
+    font-size: 30pt;
+    width: 200px;
+}
+.media i {
+    color: white;
+}
+.media i:hover {
+    color: #8B2801 ;
+}

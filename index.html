@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firasat Coffe</title>
+
+    <!-- Bootetrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Jqwery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/7d90d49287.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 stiky">
+            <div class="container pr-3 pl-3">
+                <a class="navbar-brand" href="#">Firasat Coffee</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end align-items-lg-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav pr-3">
+                        <a class="nav-link active me-5" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link me-4" href="#about">About</a>
+                        <a class="nav-link me-4" href="#product">Product</a>
+                        <a class="nav-link me-4" href="#testimoni">Testimoni</a>
+                        <a class="nav-link me-4" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="home col">
+                <p class="home-text text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem architecto libero natus.
+                     Accusamus ex, earum beatae asperiores similique reiciendis ad!</p>
+            </div>
+        </section>
+    </header>
+    <!-- About Us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 about-img text-center">
+                    <img src="asset/about.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 text-white about-toko">
+                    <h1 class="fw-bold">ABOUT</h1>
+                    <h1 class="fw-bold">NAMA TOKO</h1>
+                    <p class="text-about pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Corporis ratione natus quis earum officia soluta! Lorem ipsum dolor sit amet 
+                         consectetur adipisicing elit. Repellendus, ullam? Lorem ipsum dolor sit amet consectetur 
+                         adipisicing elit. Commodi, sapiente!</p>
+                    <br>
+                    <p class="text-about pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Officia accusantium aspernatur, accusamus doloribus nostrum veritatis possimus
+                        reprehenderit distinctio alias voluptates? Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Reprehenderit, nemo.</p>
+                    <button type="button" class="btn btn-dark">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Produk -->
+    <section class="product" id="product">
+        <div class="container">
+            <!--Menu Best Seller  -->
+            <div class="text-white text-center menu">
+                <h1 class="pb-3 fw-bold">OUR MENU BEST SELLER</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quos, placeat cum voluptas rem nisi.</p>
+            </div>
+            <div class="d-flex row produk">
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto">
+                        <div class="img-box justify-content-center text-center ">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-beli" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Beli Coffe
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Jika ingin memesan silahkan klik tombol pesan !!!!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger">Pesan</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto">
+                        <div class="img-box justify-content-center text-center">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, modi!</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-beli" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Beli Coffe
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Jika ingin memesan silahkan klik tombol pesan !!!!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger">Pesan</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto">
+                        <div class="img-box justify-content-center text-center">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-beli" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Beli Coffe
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Jika ingin memesan silahkan klik tombol pesan !!!!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger">Pesan</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner -->
+            <div class="container banner">
+                <div class="row">
+                    <div class="col-lg-6 text-center text-white p-5">
+                        <p class="fw-bold">Firasat Coffe</p>
+                        <h3 class="fw-bold">Discont Spesial 20 % Setiap Hari Jum'at</h3>
+                        <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi obcaecati fugit ipsa eum exercitationem adipisci.</p>
+                    </div>
+                    <div class="col-lg-6 p-2">
+                        <img src="asset/2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- New Produk -->
+            <div class="text-center text-white pt-5">
+                <h1 class="pb-5 fw-bold">New Product Coffe</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi labore quisquam necessitatibus voluptas. Dolores?</p>
+            </div>
+            <div class="d-flex row produk">
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center ">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center ">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center ">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 my-3">
+                    <div class="card mx-auto new-produk">
+                        <div class="img-box justify-content-center text-center ">
+                            <img src="asset/1.png" width="400" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+                          <div class="d-flex justify-content-between pt-2">
+                            <p class="pt-2 fw-bold harga">Rp. 27.000</p>
+                            <a href="#" class="btn btn-beli">Beli Coffe</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center new-produk">
+                    <div class="card">
+                      <p>-----------Tidak Ada Produk-------------</p>
+                    </div>
+                </div>
+                <div class="btn-load text-center mt-4">
+                    <a href="" class="btn load-more"> Load More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 contact-img text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126928.45298540164!2d106.68842291640625!3d-6.1956867999999945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f51a1dffbb49%3A0x98b499c4a91c011c!2sJakarta%20coffee%20house!5e0!3m2!1sid!2sid!4v1667459896066!5m2!1sid!2sid"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6  text-white contact-text">
+                    <h1 class="fw-bold">CONTACT</h1>
+                    <p class="text-contact pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Corporis ratione natus quis earum officia soluta! Lorem ipsum dolor sit amet 
+                         consectetur adipisicing elit. Repellendus, ullam? Lorem ipsum dolor sit amet consectetur 
+                         adipisicing elit. Commodi, sapiente!</p>
+                    <br>
+                    <p class="text-contact pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Officia accusantium aspernatur, accusamus doloribus nostrum veritatis possimus
+                        reprehenderit distinctio alias voluptates? Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Reprehenderit, nemo.</p>
+                    <button type="button" class="btn btn-dark">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimoni -->
+    <section class="testimoni" id="testimoni">
+        <div class="container p-5">
+            <div class="text-center">
+                <h1 class="fw-bold">WHAT OUR CLIENS SAY ABOUT US</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center py-3">
+                    <div class="profile pt-3">
+                        <img src="https://lh5.googleusercontent.com/W3NhV8I5pQrVhgyg5OldC3l_pIZawKXGXnr-0kdyGQH-7zSUnt12emgJLFJO00oTJWw=w2400" class="user">
+                        <h5 class="text-center fw-bold">Rina Setyaningsih</h5>
+                        <div class="star py-3 text-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="pt-5 fw-bold">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nihil sapiente nesciunt! Officia
+                            nihil velit ipsum, qui incidunt quia? Iusto."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    <div class="profile pt-3">
+                        <img src="https://lh6.googleusercontent.com/wpcGb7_1EHVx97yBbseh5Hgk6KyQ0uJqvWzUBNA__Y7U3GmUJmKZqrcRzdwJsbYXqUY=w2400" class="user">
+                        <h5 class="text-center fw-bold">Rismi Mutiara</h5>
+                        <div class="star py-3 text-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="pt-5 fw-bold">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nihil sapiente nesciunt! Officia
+                        nihil velit ipsum, qui incidunt quia? Iusto."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    <div class="profile pt-3">
+                        <img src="https://lh4.googleusercontent.com/PVwpMQcHYoaUMuXd1MafFYj5RLDJM4AtbI3lbkGevKkja9k7KJuuw-gVuZywjDXkiGg=w2400" class="user">
+                        <h5 class="text-center fw-bold">Dinda Haw</h5>
+                        <div class="star py-3 text-center">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="pt-5 fw-bold">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nihil sapiente nesciunt! Officia
+                        nihil velit ipsum, qui incidunt quia? Iusto."</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="testi1">
+                <div class="container">
+                    <div class="row mt-5" style="padding: 120px 60px 140px 60px; color: white;">
+                        <div class="col text-center">
+                            <h1 class="pb-3"><b>Testimoni</b></h1>
+                            <h4><q><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus.</b></q></h4>
+                            <p><b>Eko</b><br>Pelanggan </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="testi1">
+                <div class="container">
+                    <div class="row mt-5" style="padding: 120px 60px 140px 60px; color: white;">
+                        <div class="col text-center">
+                            <h1 class="pb-3"><b>Testimoni</b></h1>
+                            <h4><q><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus.</b></q></h4>
+                            <p><b>Eko</b><br>Pelanggan </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="testi1">
+                <div class="container">
+                    <div class="row mt-5" style="padding: 120px 60px 140px 60px; color: white;">
+                        <div class="col text-center">
+                            <h1 class="pb-3"><b>Testimoni</b></h1>
+                            <h4><q><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus.</b></q></h4>
+                            <p><b>Eko</b><br>Pelanggan </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--footer-->
+    <Footer Class="footer p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 fw-bold py-3 text-white">
+                    <h4>FIRASAT COFFEE</h4>
+                    <h5>Get out there & discover your next cacation, forest & destination!</h5>
+                    <h6>Copyright 2022 Firasat Coffe, Inc. Terms & Privacy</h6>
+                </div>
+                <div class="col-lg-3 col-md-5 col1 fw-bold py-3 text-white">
+                    <h4>MORE ON THE BLOG</h4>
+                    <div class="d-flex flex-column justify-content-between col1">
+                        <a class="py-1 fw-bold" href="">About Us</a>
+                        <a class="py-1 fw-bold" href="">Privacy Policy</a>
+                        <a class="py-1 fw-bold" href="">Write For Us</a>
+                        <a class="py-1 fw-bold" href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 fw-bold py-3 text-white">
+                    <h4>CONTACT</h4>
+                    <br>
+                    <div class="media d-flex">
+                        <a href=""><i class="fa-brands fa-square-instagram m-2"></i></a>
+                        <a href=""><i class="fa-brands fa-square-facebook m-2"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp m-2"></i></a>
+                        <a href=""><i class="fa-brands fa-square-google-plus m-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Footer>
+
+    <!-- Custom Js --> 
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
